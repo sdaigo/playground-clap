@@ -1,0 +1,20 @@
+name: clap-playground
+version: "1.0"
+author: sdaigo <stain.witness@gmail.com>
+about: Playground of clap
+subcommands:
+  - media:
+      about: controls media
+      version: "0.5.0"
+      subcommands:
+        - convert:
+            about: covert media files
+            args:
+              - file:
+                  about: specified file name
+                  takes_value: true
+                  required: true
+
+  - fortune:
+      about: try your fortune
+      version: "0.0.1"
