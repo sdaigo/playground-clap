@@ -11,7 +11,7 @@ subcommands:
             about: covert media files
             args:
               - file:
-                  about: specified file name
+                  about: path to csv file includes sources of media
                   takes_value: true
                   required: true
 
